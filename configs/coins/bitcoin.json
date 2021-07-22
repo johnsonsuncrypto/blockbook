@@ -12,11 +12,11 @@
     "blockbook_public": 9130
   },
   "ipc": {
-    "rpc_url_template": "http://127.0.0.1:{{.Ports.BackendRPC}}",
+    "rpc_url_template": "http://172.30.40.69:{{.Ports.BackendRPC}}",
     "rpc_user": "rpc",
     "rpc_pass": "rpc",
     "rpc_timeout": 25,
-    "message_queue_binding_template": "tcp://127.0.0.1:{{.Ports.BackendMessageQueue}}"
+    "message_queue_binding_template": "tcp://172.30.40.69:{{.Ports.BackendMessageQueue}}"
   },
   "backend": {
     "package_name": "backend-bitcoin",
